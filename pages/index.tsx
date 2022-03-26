@@ -39,13 +39,13 @@ const Home: NextPage = () => {
         <div className={styles.grid}>
           <Link href='/join'>
             <a className={styles.card}>
-              <h2>JOIN A CIRCLE </h2>
-              <p>Browse a list of existing Circles and find one that you'd like to join or support with a donation.</p>
+              <h2>JOIN A CIRCLE &rarr;</h2>
+              <p>Browse a list of existing Circles and find one that you would like to join or support with a donation.</p>
             </a>
           </Link>
 
           <a onClick={() => loginWithRedirect()} className={styles.card}>
-            <h2>START A CIRCLE </h2>
+            <h2>START A CIRCLE &rarr;</h2>
             <p>Create a new Giving Circle and invite like-minded people to support worthy projects by qualified organizations.</p>
           </a>
 
