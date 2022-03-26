@@ -2,7 +2,7 @@ import React from 'react'
 
 function JoinCircle() {
   return (
-    <div>List of Cirlcs to join</div>
+    <div>List of Cirlcs to join still under development</div>
   )
 }
 
