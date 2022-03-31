@@ -48,28 +48,28 @@ const Home: NextPage = () => {
             <h2>START A CIRCLE &rarr;</h2>
             <p>Create a new Giving Circle and invite like-minded people to support worthy projects by qualified organizations.</p>
           </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>HOW IT WORKS</h2>
-            <p>
-            Learn more about how Giving Circles work, and how you can participate to make a difference in sustainable development projects worldwide.
-            </p>
-          </a>
+          <Link href='/howcircleworks'>
+            <a
+              className={styles.card}
+            >
+              <h2>HOW IT WORKS</h2>
+              <p>
+              Learn more about how Giving Circles work, and how you can participate to make a difference in sustainable development projects worldwide.
+              </p>
+            </a>
+          </Link>
         </div>
       </main>
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://tmg.us.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
           Powered by{' '}
           <span className={styles.logo}>
-           <a href='tmg.us.com'>Tangale Medical Group</a>
+           <a href='https://tmg.us.com/'>Tangale Medical Group</a>
           </span>
         </a>
       </footer>
